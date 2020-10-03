@@ -1,7 +1,8 @@
 ---
 title: Protobuf Examples
 date: 2020-06-07 13:37:00
-tags: Protobuf
+tags:
+- Protobuf
 ---
 
 # Installation

@@ -1,7 +1,9 @@
 ---
 title: UDP learn by Python3
 date: 2020-04-27 18:30:00
-tags: Network, TCP/IP
+tags:
+- Network
+- TCP/IP
 ---
 
 ## Find max packet size

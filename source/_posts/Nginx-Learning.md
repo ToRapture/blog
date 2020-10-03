@@ -1,7 +1,8 @@
 ---
 title: Nginx Learning
 date: 2020-05-21 13:03:00
-tags: Nginx
+tags:
+- Nginx
 ---
 
 [nginx documentation](http://nginx.org/en/docs/)

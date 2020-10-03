@@ -1,7 +1,8 @@
 ---
 title: Median of Two Sorted Arrays
 date: 2019-12-29 15:01:00
-tags: Algorithm
+tags:
+- Algorithm
 ---
 
 https://leetcode.com/problems/median-of-two-sorted-arrays/

@@ -1,7 +1,8 @@
 ---
 title: Poj 2796 Feel Good 单调栈
 date: 2017-08-30 15:13:00
-tags: Algorithm
+tags:
+- Algorithm
 ---
 
 令$sum(l, r) = \sum\limits_{i \in [l, r]} a_i$，求$\max\{\min_{i=l}^ra_i \times sum(l, r) \  |\ 1 \le l \le r \le n \}$。

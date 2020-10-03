@@ -1,7 +1,8 @@
 ---
 title: Learning Thrift
 date: 2020-05-27 17:39:00
-tags: Thrift
+tags:
+- Thrift
 ---
 
 ## IDL and Code Generation

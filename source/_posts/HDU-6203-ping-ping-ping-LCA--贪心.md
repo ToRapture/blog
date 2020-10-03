@@ -1,7 +1,8 @@
 ---
 title: HDU 6203 ping ping ping LCA + 贪心
 date: 2017-09-19 17:05:00
-tags: Algorithm
+tags:
+- Algorithm
 ---
 
 有一个$N+1$个结点的树$T$。

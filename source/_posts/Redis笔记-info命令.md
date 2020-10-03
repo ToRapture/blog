@@ -1,7 +1,8 @@
 ---
 title: Redis笔记 info命令
 date: 2019-12-11 16:22:00
-tags: Redis
+tags:
+- Redis
 ---
 
 命令具体实现在`redis-3.0/src/redis.c:genRedisInfoString`。

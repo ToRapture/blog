@@ -1,7 +1,8 @@
 ---
 title: Poj 2352 Stars
 date: 2017-09-19 17:06:00
-tags: Algorithm
+tags:
+- Algorithm
 ---
 
 简单二维偏序

@@ -1,7 +1,8 @@
 ---
 title: HDU 2069 Coin Change 生成函数
 date: 2017-08-30 15:47:00
-tags: Algorithm
+tags:
+- Algorithm
 ---
 
 ```cpp

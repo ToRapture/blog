@@ -1,7 +1,8 @@
 ---
 title: Learn Memcached
 date: 2020-05-19 18:33:00
-tags: Memcached
+tags:
+- Memcached
 ---
 
 # Deployment

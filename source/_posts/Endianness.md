@@ -1,7 +1,8 @@
 ---
 title: Endianness
 date: 2020-05-09 16:46:00
-tags: Network
+tags:
+- Network
 ---
 
 # What is endianness?

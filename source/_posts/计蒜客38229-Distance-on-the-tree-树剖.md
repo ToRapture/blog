@@ -1,7 +1,8 @@
 ---
 title: 计蒜客38229 Distance on the tree 树剖
 date: 2019-04-26 16:02:00
-tags: Algorithm
+tags:
+- Algorithm
 ---
 
 按照查询的边权w排序，离线add和query，注意树剖处理边权时的特殊逻辑。

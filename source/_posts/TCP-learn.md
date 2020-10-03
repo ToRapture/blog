@@ -1,7 +1,9 @@
 ---
 title: TCP learn
 date: 2020-05-09 17:48:00
-tags: Network, TCP/IP
+tags:
+- Network
+- TCP/IP
 ---
 
 # Headers

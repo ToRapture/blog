@@ -1,7 +1,8 @@
 ---
 title: Prime and Factors
 date: 2020-04-13 14:25:00
-tags: Algorithm
+tags:
+- Algorithm
 ---
 
 [HDU 1164](http://acm.hdu.edu.cn/showproblem.php?pid=1164)

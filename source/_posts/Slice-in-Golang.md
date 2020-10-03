@@ -1,7 +1,8 @@
 ---
 title: Slice in Golang
 date: 2020-03-27 16:24:00
-tags: Golang
+tags:
+- Golang
 ---
 
 ## Blogs

@@ -1,7 +1,8 @@
 ---
 title: wait和signal测试
 date: 2019-12-24 11:33:00
-tags: UNIX编程
+tags:
+- UNIX编程
 ---
 
 ```

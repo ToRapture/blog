@@ -1,7 +1,9 @@
 ---
 title: Flask Quickstart
 date: 2020-05-23 10:51:00
-tags: Flask, Python
+tags:
+- Flask
+- Python
 ---
 
 `code`:

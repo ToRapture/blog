@@ -1,7 +1,8 @@
 ---
 title: Redis学习 数据结构
 date: 2019-12-15 13:34:00
-tags: Redis
+tags:
+- Redis
 ---
 
 本文参考了[Redis源码3.0分支](https://github.com/antirez/redis/tree/3.0)和《Redis设计与实现》。

@@ -1,7 +1,8 @@
 ---
 title: HDU 5769 Substring 后缀数组
 date: 2017-09-17 20:10:00
-tags: Algorithm
+tags:
+- Algorithm
 ---
 
 求字符串$str$中包含某个字符的互不相同的子串个数。

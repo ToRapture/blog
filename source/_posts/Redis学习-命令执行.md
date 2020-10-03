@@ -1,7 +1,8 @@
 ---
 title: Redis学习 命令执行
 date: 2019-12-12 18:13:00
-tags: Redis
+tags:
+- Redis
 ---
 
 # 协议格式

@@ -1,7 +1,8 @@
 ---
 title: HDU 1880 Hash table with chaining
 date: 2019-11-21 10:40:00
-tags: Algorithm
+tags:
+- Algorithm
 ---
 
 [HDU 1880](http://acm.hdu.edu.cn/showproblem.php?pid=1880)

@@ -1,7 +1,9 @@
 ---
 title: IP checksum
 date: 2020-04-23 14:22:00
-tags: Network, TCP/IP
+tags:
+- Network
+- TCP/IP
 ---
 
 To do an experiment, first capture an IP packet, as we can see the checksum is 0xCAD7. Then we set the checksum field to 0, and calculate the checksum, then we will get 0xCAD7. Set 0xCAD7 to the checksum field and calculate the checksum again, we will get 0 then.

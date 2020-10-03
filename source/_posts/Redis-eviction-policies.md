@@ -1,7 +1,8 @@
 ---
 title: Redis eviction policies
 date: 2020-04-16 13:47:00
-tags: Redis
+tags:
+- Redis
 ---
 
 ## Official document

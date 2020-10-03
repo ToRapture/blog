@@ -1,7 +1,9 @@
 ---
 title: TCP Headers in Detail
 date: 2020-05-12 17:19:00
-tags: Network, TCP/IP
+tags:
+- Network
+- TCP/IP
 ---
 
 # Timestamp option

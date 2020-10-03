@@ -1,7 +1,8 @@
 ---
 title: UNIX编程 I/O多路转接笔记
 date: 2019-11-29 14:59:00
-tags: UNIX编程
+tags:
+- UNIX编程
 ---
 
 ## 在标准输入上测试select

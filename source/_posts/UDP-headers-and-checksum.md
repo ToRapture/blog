@@ -1,7 +1,9 @@
 ---
 title: UDP headers and checksum
 date: 2020-04-27 14:03:00
-tags: Network, TCP/IP
+tags:
+- Network
+- TCP/IP
 ---
 
 ## UDP headers

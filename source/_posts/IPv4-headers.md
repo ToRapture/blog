@@ -1,7 +1,9 @@
 ---
 title: IPv4 headers
 date: 2020-04-24 17:13:00
-tags: Network, TCP/IP
+tags:
+- Network
+- TCP/IP
 ---
 
 From: TCP/IP Illustrated, Volume 1: The Protocols.

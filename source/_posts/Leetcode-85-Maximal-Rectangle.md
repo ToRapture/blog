@@ -1,7 +1,8 @@
 ---
 title: Leetcode 85. Maximal Rectangle
 date: 2018-08-31 23:14:00
-tags: Algorithm
+tags:
+- Algorithm
 ---
 
 令$sum_{i, j}$表示从$(i, j)$开始沿着$(i - 1, j), (i - 2, j) \dots (0, j)$方向的连续的$1$的个数，

@@ -1,7 +1,8 @@
 ---
 title: Manacher算法
 date: 2019-11-14 14:57:00
-tags: Algorithm
+tags:
+- Algorithm
 ---
 
 [[kuangbin专题] Manacher](https://vjudge.net/contest/284138)

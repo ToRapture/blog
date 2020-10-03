@@ -1,7 +1,8 @@
 ---
 title: UNIX编程 文件I/O笔记
 date: 2019-11-28 11:25:00
-tags: UNIX编程
+tags:
+- UNIX编程
 ---
 
 ## 打开、创建、关闭文件

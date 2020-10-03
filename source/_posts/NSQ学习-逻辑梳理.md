@@ -1,7 +1,8 @@
 ---
 title: NSQ学习 逻辑梳理
 date: 2019-12-17 16:27:00
-tags: NSQ
+tags:
+- NSQ
 ---
 
 # 消费者连接NSQD或NSQLookupd

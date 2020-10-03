@@ -1,7 +1,8 @@
 ---
 title: 子串Hash
 date: 2019-10-31 14:52:00
-tags: Algorithm
+tags:
+- Algorithm
 ---
 
 ## 模板

@@ -1,7 +1,9 @@
 ---
 title: UDP and netstat
 date: 2020-04-28 12:49:00
-tags: Network, TCP/IP
+tags:
+- Network
+- TCP/IP
 ---
 
 Do some experiment about UDP by Python3 and netstat.

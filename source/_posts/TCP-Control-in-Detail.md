@@ -1,7 +1,9 @@
 ---
 title: TCP Control in Detail
 date: 2020-05-12 18:30:00
-tags: Network, TCP/IP
+tags:
+- Network
+- TCP/IP
 ---
 
 # Retransmission

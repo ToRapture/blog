@@ -1,7 +1,8 @@
 ---
 title: HDU 2642 Stars
 date: 2020-04-12 18:50:00
-tags: Algorithm
+tags:
+- Algorithm
 ---
 
 [Stars](http://acm.hdu.edu.cn/showproblem.php?pid=2642)

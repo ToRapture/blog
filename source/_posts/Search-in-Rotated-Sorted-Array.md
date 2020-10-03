@@ -1,7 +1,8 @@
 ---
 title: Search in Rotated Sorted Array
 date: 2020-04-04 11:05:00
-tags: Algorithm
+tags:
+- Algorithm
 ---
 
 [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)

@@ -1,7 +1,8 @@
 ---
 title: Learn Goroutine
 date: 2020-04-17 15:48:00
-tags: Golang
+tags:
+- Golang
 ---
 
 ## Definitions

@@ -1,7 +1,8 @@
 ---
 title: 236. Lowest Common Ancestor of a Binary Tree
 date: 2020-04-10 16:51:00
-tags: Algorithm
+tags:
+- Algorithm
 ---
 
 [236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)

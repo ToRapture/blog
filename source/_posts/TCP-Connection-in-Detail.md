@@ -1,7 +1,9 @@
 ---
 title: TCP Connection in Detail
 date: 2020-05-12 17:48:00
-tags: Network, TCP/IP
+tags:
+- Network
+- TCP/IP
 ---
 
 # Reset

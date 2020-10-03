@@ -1,7 +1,8 @@
 ---
 title: Poj 3261 Milk Patterns 后缀数组
 date: 2017-09-17 20:05:00
-tags: Algorithm
+tags:
+- Algorithm
 ---
 
 求至少可重叠重复$K$次的最长子串的长度。

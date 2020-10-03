@@ -1,7 +1,9 @@
 ---
 title: Commands for IP
 date: 2020-04-24 16:47:00
-tags: Network, TCP/IP
+tags:
+- Network
+- TCP/IP
 ---
 
 ## ifconfig
