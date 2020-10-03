@@ -1,6 +1,7 @@
 ---
 title: Hungarian Algorithm
 date: 2020-04-14 14:04:00
+mathjax: true
 tags:
 - Algorithm
 ---

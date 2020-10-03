@@ -1,6 +1,7 @@
 ---
 title: Quick Sort
 date: 2020-04-13 12:01:00
+mathjax: true
 tags:
 - Algorithm
 ---

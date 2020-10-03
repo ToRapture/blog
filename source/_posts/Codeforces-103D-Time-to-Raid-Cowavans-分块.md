@@ -1,6 +1,7 @@
 ---
 title: Codeforces 103D Time to Raid Cowavans 分块
 date: 2017-09-19 17:21:00
+mathjax: true
 tags:
 - Algorithm
 ---

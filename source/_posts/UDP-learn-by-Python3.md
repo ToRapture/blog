@@ -1,6 +1,7 @@
 ---
 title: UDP learn by Python3
 date: 2020-04-27 18:30:00
+mathjax: true
 tags:
 - Network
 - TCP/IP

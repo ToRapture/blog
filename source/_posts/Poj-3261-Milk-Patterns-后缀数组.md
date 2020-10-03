@@ -1,6 +1,7 @@
 ---
 title: Poj 3261 Milk Patterns 后缀数组
 date: 2017-09-17 20:05:00
+mathjax: true
 tags:
 - Algorithm
 ---

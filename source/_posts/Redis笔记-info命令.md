@@ -1,6 +1,7 @@
 ---
 title: Redis笔记 info命令
 date: 2019-12-11 16:22:00
+mathjax: true
 tags:
 - Redis
 ---

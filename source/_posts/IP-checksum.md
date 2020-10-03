@@ -1,6 +1,7 @@
 ---
 title: IP checksum
 date: 2020-04-23 14:22:00
+mathjax: true
 tags:
 - Network
 - TCP/IP

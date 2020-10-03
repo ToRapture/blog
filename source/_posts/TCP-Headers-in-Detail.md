@@ -1,6 +1,7 @@
 ---
 title: TCP Headers in Detail
 date: 2020-05-12 17:19:00
+mathjax: true
 tags:
 - Network
 - TCP/IP

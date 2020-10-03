@@ -1,6 +1,7 @@
 ---
 title: 跳表 SkipList
 date: 2019-11-20 16:25:00
+mathjax: true
 tags:
 - 数据结构
 ---

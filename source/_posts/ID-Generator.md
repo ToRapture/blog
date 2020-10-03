@@ -1,6 +1,7 @@
 ---
 title: ID Generator
 date: 2020-04-01 16:52:00
+mathjax: true
 tags:
 - Design
 ---

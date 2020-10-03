@@ -1,6 +1,7 @@
 ---
 title: Poj 2352 Stars
 date: 2017-09-19 17:06:00
+mathjax: true
 tags:
 - Algorithm
 ---

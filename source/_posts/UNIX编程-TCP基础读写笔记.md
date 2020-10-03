@@ -1,6 +1,7 @@
 ---
 title: UNIX编程 TCP基础读写笔记
 date: 2019-12-04 15:30:00
+mathjax: true
 tags:
 - UNIX编程
 ---

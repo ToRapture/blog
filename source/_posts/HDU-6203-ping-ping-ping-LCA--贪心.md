@@ -1,6 +1,7 @@
 ---
 title: HDU 6203 ping ping ping LCA + 贪心
 date: 2017-09-19 17:05:00
+mathjax: true
 tags:
 - Algorithm
 ---

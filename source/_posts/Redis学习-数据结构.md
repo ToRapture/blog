@@ -1,6 +1,7 @@
 ---
 title: Redis学习 数据结构
 date: 2019-12-15 13:34:00
+mathjax: true
 tags:
 - Redis
 ---

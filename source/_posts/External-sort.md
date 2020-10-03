@@ -1,6 +1,7 @@
 ---
 title: External sort
 date: 2020-03-30 18:46:00
+mathjax: true
 tags:
 - Algorithm
 ---

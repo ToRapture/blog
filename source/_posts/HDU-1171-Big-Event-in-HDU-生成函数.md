@@ -1,6 +1,7 @@
 ---
 title: HDU 1171 Big Event in HDU 生成函数
 date: 2017-08-30 15:46:00
+mathjax: true
 tags:
 - Algorithm
 ---

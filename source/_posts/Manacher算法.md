@@ -1,6 +1,7 @@
 ---
 title: Manacher算法
 date: 2019-11-14 14:57:00
+mathjax: true
 tags:
 - Algorithm
 ---

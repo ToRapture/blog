@@ -1,6 +1,7 @@
 ---
 title: UDP and netstat
 date: 2020-04-28 12:49:00
+mathjax: true
 tags:
 - Network
 - TCP/IP

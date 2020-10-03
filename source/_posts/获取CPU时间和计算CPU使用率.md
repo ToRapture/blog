@@ -1,6 +1,7 @@
 ---
 title: 获取CPU时间和计算CPU使用率
 date: 2019-12-15 14:48:00
+mathjax: true
 tags:
 - UNIX编程
 ---

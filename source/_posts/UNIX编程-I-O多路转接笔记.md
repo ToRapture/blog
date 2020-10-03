@@ -1,6 +1,7 @@
 ---
 title: UNIX编程 I/O多路转接笔记
 date: 2019-11-29 14:59:00
+mathjax: true
 tags:
 - UNIX编程
 ---

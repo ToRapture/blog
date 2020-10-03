@@ -1,6 +1,7 @@
 ---
 title: Token Bucket Algorithm
 date: 2020-03-31 16:04:00
+mathjax: true
 tags:
 - Design
 ---

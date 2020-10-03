@@ -1,6 +1,7 @@
 ---
 title: HDU 5769 Substring 后缀数组
 date: 2017-09-17 20:10:00
+mathjax: true
 tags:
 - Algorithm
 ---

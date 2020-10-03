@@ -1,6 +1,7 @@
 ---
 title: Learning Thrift
 date: 2020-05-27 17:39:00
+mathjax: true
 tags:
 - Thrift
 ---

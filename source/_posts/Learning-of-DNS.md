@@ -1,6 +1,7 @@
 ---
 title: Learning of DNS
 date: 2020-05-03 13:37:00
+mathjax: true
 tags:
 - Network
 - DNS

@@ -1,6 +1,7 @@
 ---
 title: Leetcode 96. Unique Binary Search Trees
 date: 2020-04-07 20:02:00
+mathjax: true
 tags:
 - Algorithm
 ---

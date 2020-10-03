@@ -1,6 +1,7 @@
 ---
 title: UDP headers and checksum
 date: 2020-04-27 14:03:00
+mathjax: true
 tags:
 - Network
 - TCP/IP

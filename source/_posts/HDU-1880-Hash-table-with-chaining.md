@@ -1,6 +1,7 @@
 ---
 title: HDU 1880 Hash table with chaining
 date: 2019-11-21 10:40:00
+mathjax: true
 tags:
 - Algorithm
 ---

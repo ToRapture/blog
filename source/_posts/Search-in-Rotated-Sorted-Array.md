@@ -1,6 +1,7 @@
 ---
 title: Search in Rotated Sorted Array
 date: 2020-04-04 11:05:00
+mathjax: true
 tags:
 - Algorithm
 ---

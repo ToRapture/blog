@@ -1,6 +1,7 @@
 ---
 title: UNIX编程 文件I/O笔记
 date: 2019-11-28 11:25:00
+mathjax: true
 tags:
 - UNIX编程
 ---

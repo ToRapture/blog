@@ -1,6 +1,7 @@
 ---
 title: 计蒜客38228 Max answer 单调栈 + 线段树
 date: 2019-04-24 17:15:00
+mathjax: true
 tags:
 - Algorithm
 ---

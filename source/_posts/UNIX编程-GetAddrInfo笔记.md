@@ -1,6 +1,7 @@
 ---
 title: UNIX编程 GetAddrInfo笔记
 date: 2019-12-06 15:58:00
+mathjax: true
 tags:
 - UNIX编程
 ---

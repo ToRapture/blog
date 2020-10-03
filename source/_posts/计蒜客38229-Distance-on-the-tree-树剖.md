@@ -1,6 +1,7 @@
 ---
 title: 计蒜客38229 Distance on the tree 树剖
 date: 2019-04-26 16:02:00
+mathjax: true
 tags:
 - Algorithm
 ---

@@ -1,6 +1,7 @@
 ---
 title: 2017 ACM/ICPC Asia Regional Qingdao Online
 date: 2017-09-17 20:28:00
+mathjax: true
 tags:
 - Algorithm
 ---

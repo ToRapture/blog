@@ -1,6 +1,7 @@
 ---
 title: Flask Quickstart
 date: 2020-05-23 10:51:00
+mathjax: true
 tags:
 - Flask
 - Python

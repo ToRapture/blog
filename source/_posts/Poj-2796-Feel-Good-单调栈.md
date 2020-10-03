@@ -1,6 +1,7 @@
 ---
 title: Poj 2796 Feel Good 单调栈
 date: 2017-08-30 15:13:00
+mathjax: true
 tags:
 - Algorithm
 ---

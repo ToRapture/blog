@@ -1,6 +1,7 @@
 ---
 title: HDU 2642 Stars
 date: 2020-04-12 18:50:00
+mathjax: true
 tags:
 - Algorithm
 ---

@@ -1,6 +1,7 @@
 ---
 title: Install and Config MySQL 8 on Ubuntu
 date: 2020-06-10 12:11:00
+mathjax: true
 tags:
 - MySQL
 - Database

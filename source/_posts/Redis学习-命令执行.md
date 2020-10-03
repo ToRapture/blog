@@ -1,6 +1,7 @@
 ---
 title: Redis学习 命令执行
 date: 2019-12-12 18:13:00
+mathjax: true
 tags:
 - Redis
 ---

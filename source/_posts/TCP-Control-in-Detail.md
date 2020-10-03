@@ -1,6 +1,7 @@
 ---
 title: TCP Control in Detail
 date: 2020-05-12 18:30:00
+mathjax: true
 tags:
 - Network
 - TCP/IP

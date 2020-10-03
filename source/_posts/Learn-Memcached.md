@@ -1,6 +1,7 @@
 ---
 title: Learn Memcached
 date: 2020-05-19 18:33:00
+mathjax: true
 tags:
 - Memcached
 ---

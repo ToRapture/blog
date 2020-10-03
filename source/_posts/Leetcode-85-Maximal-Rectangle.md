@@ -1,6 +1,7 @@
 ---
 title: Leetcode 85. Maximal Rectangle
 date: 2018-08-31 23:14:00
+mathjax: true
 tags:
 - Algorithm
 ---
