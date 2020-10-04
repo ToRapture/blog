@@ -21,7 +21,7 @@ tags:
 如果收到`REQ`指令，说明对应消息需要重新执行，这条消息会从`InFlightQueue`删除然后进入`DeferredQueue`，等到需要被执行的时刻再重新投递给`Channel`。
 `DeferredQueue`也是最小堆，用于比较的属性是消息被执行的时刻。
 
-![](https://img2018.cnblogs.com/blog/1224734/201912/1224734-20191217162714868-2037097168.png)
+![](/images/posts/NSQ学习-逻辑梳理/0.png)
 
 # 启动和关闭
 ## DeferredQueue和InFlightQueue

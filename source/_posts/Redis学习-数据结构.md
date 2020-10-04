@@ -289,7 +289,7 @@ unsigned int zsetLength(robj *zobj);
 void zsetConvert(robj *zobj, int encoding);
 unsigned long zslGetRank(zskiplist *zsl, double score, robj *o);
 ```
-![](https://img2018.cnblogs.com/blog/1224734/201912/1224734-20191215133349648-1328505242.png)
+![](/images/posts/Redis学习-数据结构/0.png)
 
 插入时的核心逻辑：
 1. 找到插入的位置

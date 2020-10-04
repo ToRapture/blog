@@ -49,5 +49,5 @@ https://stackoverflow.com/a/997586/13133551
 
 >The data itself doesn't have any endianness it's entirely application defined.
 
-![](https://img2020.cnblogs.com/blog/1224734/202005/1224734-20200509164613286-1013916493.png)
+![](/images/posts/Endianness/0.png)
 As we can see from the picture, the endianness of net is Big Endian.

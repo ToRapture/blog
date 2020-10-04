@@ -8,19 +8,19 @@ tags:
 ---
 
 # Headers
-![](https://img2020.cnblogs.com/blog/1224734/202005/1224734-20200503133552717-1913887999.png)
+![](/images/posts/Learning-of-DNS/0.png)
 
 ## Lables
 Each label can be up to 63 characters long, and an entire FQDN(fully qualified domain name) is limited to at most 255 (1-byte) characters.
 
-![](https://img2020.cnblogs.com/blog/1224734/202005/1224734-20200503133602883-1665474057.png)
-![](https://img2020.cnblogs.com/blog/1224734/202005/1224734-20200503133611197-1436171352.png)
+![](/images/posts/Learning-of-DNS/1.png)
+![](/images/posts/Learning-of-DNS/2.png)
 
 ## Query Format
-![](https://img2020.cnblogs.com/blog/1224734/202005/1224734-20200503133619966-500069655.png)
+![](/images/posts/Learning-of-DNS/3.png)
 
 ## Answer Format
-![](https://img2020.cnblogs.com/blog/1224734/202005/1224734-20200503133627206-1901747598.png)
+![](/images/posts/Learning-of-DNS/4.png)
 
 # Commands and Packets
 ```
@@ -48,8 +48,8 @@ baidu.com.		5	IN	A	220.181.38.148
 
 ```
 
-![](https://img2020.cnblogs.com/blog/1224734/202005/1224734-20200503133637201-588533106.png)
-![](https://img2020.cnblogs.com/blog/1224734/202005/1224734-20200503133652019-1178044910.png)
+![](/images/posts/Learning-of-DNS/5.png)
+![](/images/posts/Learning-of-DNS/6.png)
 
 
 # Simulation

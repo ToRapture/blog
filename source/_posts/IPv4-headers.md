@@ -9,7 +9,7 @@ tags:
 
 From: TCP/IP Illustrated, Volume 1: The Protocols.
 
-![](https://img2020.cnblogs.com/blog/1224734/202004/1224734-20200424170916462-2028804450.png)
+![](/images/posts/IPv4-headers/0.png)
 
 ### IHL
 The Internet Header Length (IHL) field is the number of 32-bit words in the IPv4 header, including any options. Because this is also a 4-bit field, the IPv4 header is limited to a maximum of fifteen 32-bit words or 60 bytes.

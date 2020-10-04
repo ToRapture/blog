@@ -8,7 +8,7 @@ tags:
 ---
 
 To do an experiment, first capture an IP packet, as we can see the checksum is 0xCAD7. Then we set the checksum field to 0, and calculate the checksum, then we will get 0xCAD7. Set 0xCAD7 to the checksum field and calculate the checksum again, we will get 0 then.
-![](https://img2020.cnblogs.com/blog/1224734/202004/1224734-20200423142202721-1109206249.png)
+![](/images/posts/IP-checksum/0.png)
 
 ```cpp
 #include <bits/stdc++.h>

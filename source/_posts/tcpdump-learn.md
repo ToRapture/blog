@@ -14,4 +14,4 @@ tags:
 [tcpdump命令详解](http://github.tiankonguse.com/blog/2016/08/13/tcpdump.html)
 
 # Capture of tcp
-![](https://img2020.cnblogs.com/blog/1224734/202005/1224734-20200509145955633-1539393580.png)
+![](/images/posts/tcpdump-learn/0.png)

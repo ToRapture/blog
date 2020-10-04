@@ -30,21 +30,21 @@ Redis中的事件分为两类，一类被称为定时事件，如定期执行`se
 2. ReadHandler，用来`read`客户端发过来的数据，并且每当读到一条完整命令后就执行并把结果写到服务端的与该客户端相对应的缓冲区
 3. WriteHandler，用来把服务端的与客户端对应的缓冲区中的数据`write`给客户端
 
-![](https://img2018.cnblogs.com/blog/1224734/201912/1224734-20191213115837339-1247910637.jpg)
+![](/images/posts/Redis学习-命令执行/0.jpg)
 
 ## ReadHandler
 实现逻辑参照`src/networking.c:readQueryFromClient`。
 每当`fd`可读，尝试读`REDIS_IOBUF_LEN=1024*16`这么多字节的数据到缓冲区，如果`nread=0`则断开与`fd`表示的客户端的链接。
 当读到的数据不为空时，持续从缓冲区中尝试解析命令并执行，直到缓冲区已经没有完整命令。
 
-![](https://img2018.cnblogs.com/blog/1224734/201912/1224734-20191213103813692-869512069.jpg)
+![](/images/posts/Redis学习-命令执行/1.jpg)
 
 ## WriteHandler
 实现逻辑参照`src/networking.c:sendReplyToClient`。
 每当`fd`可写，循环把与`fd`对应的返回结果缓冲区中的全部数据都发给对应的客户端，直到全部发完或该次事件处理的`totwritten > REDIS_MAX_WRITE_PER_EVENT=1024*64`或`write`调用出错。
 当`write`调用出错时，若错误`EAGAIN`为，则下一轮事件循环再尝试写这个`fd`；若为其他错误，则关闭与`fd`对应的客户端连接。
 
-![](https://img2018.cnblogs.com/blog/1224734/201912/1224734-20191213104550236-230560978.jpg)
+![](/images/posts/Redis学习-命令执行/2.jpg)
 
 * * *
 
@@ -103,8 +103,8 @@ Delete file event on fd: 6, mask: readable
 Poll and handle: END
 ```
 Wireshark抓包的结果：
-![request](https://img2018.cnblogs.com/blog/1224734/201912/1224734-20191212181224838-519616019.png)
-![response](https://img2018.cnblogs.com/blog/1224734/201912/1224734-20191212181243115-1484167716.png)
+![request](/images/posts/Redis学习-命令执行/3.png)
+![response](/images/posts/Redis学习-命令执行/4.png)
 
 ## Python实现pipeline调用
 ```python

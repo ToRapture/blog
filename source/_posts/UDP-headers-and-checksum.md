@@ -8,14 +8,14 @@ tags:
 ---
 
 ## UDP headers
-![](https://img2020.cnblogs.com/blog/1224734/202004/1224734-20200427140017732-1635616137.png)
+![](/images/posts/UDP-headers-and-checksum/0.png)
 
 ## Headers for computing checksum
-![](https://img2020.cnblogs.com/blog/1224734/202004/1224734-20200427140024136-683956251.png)
+![](/images/posts/UDP-headers-and-checksum/1.png)
 
 The checksum computation is similar to the Internet checksum computation.
 
-![](https://img2020.cnblogs.com/blog/1224734/202004/1224734-20200427140101858-948940853.png)
+![](/images/posts/UDP-headers-and-checksum/2.png)
 
 ```cpp
 #include <bits/stdc++.h>

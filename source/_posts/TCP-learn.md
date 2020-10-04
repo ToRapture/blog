@@ -8,24 +8,24 @@ tags:
 ---
 
 # Headers
-![](https://img2020.cnblogs.com/blog/1224734/202005/1224734-20200509174526548-2078724920.png)
+![](/images/posts/TCP-learn/0.png)
 
 # Connection Management
 
 ## State Tansition Diagram
-![](https://img2020.cnblogs.com/blog/1224734/202005/1224734-20200509174539501-1041931082.png)
+![](/images/posts/TCP-learn/1.png)
 
 ## Sequence Diagram
 ### Normal
-![](https://img2020.cnblogs.com/blog/1224734/202005/1224734-20200509174607910-138499393.png)
+![](/images/posts/TCP-learn/2.png)
 ### Simultaneous Open
-![](https://img2020.cnblogs.com/blog/1224734/202005/1224734-20200509174619105-1272712747.png)
+![](/images/posts/TCP-learn/3.png)
 ### Simultaneous Close
-![](https://img2020.cnblogs.com/blog/1224734/202005/1224734-20200509174626926-1002849977.png)
+![](/images/posts/TCP-learn/4.png)
 ### Half Close
-![](https://img2020.cnblogs.com/blog/1224734/202005/1224734-20200509174634166-1111036533.png)
+![](/images/posts/TCP-learn/5.png)
 ### Normal with State
-![](https://img2020.cnblogs.com/blog/1224734/202005/1224734-20200509175009901-1461619215.png)
+![](/images/posts/TCP-learn/6.png)
 
 # Examples
 
