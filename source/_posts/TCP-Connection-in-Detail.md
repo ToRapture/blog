@@ -16,6 +16,7 @@ The receiver of the reset aborts the connection and advises the application that
 http://www.serverframework.com/asynchronousevents/2011/01/time-wait-and-its-design-implications-for-protocols-and-scalable-servers.html
 
 https://stackoverflow.com/a/60075710/13133551
+
 > The two reasons for the existence of the TIME-WAIT state and the 2SML timer:
 
 > * If the last ACK segment is lost, the server TCP, which sets a timer for the last FIN (Finish) bit set, assumes that its FIN is lost and resends it. If the client goes to the CLOSED state and closes the connection before the 2MSL timer expires, it never receives this resent FIN segment, and consequently, the server never receives the final ACK. The server cannot close the connection. The 2MSL timer makes the client wait for a duration that is enough time for an ACK to be lost (one SML) and a FIN to arrive (another SML). If during the TIME-WAIT state, a new FIN arrives, the client sends a new ACK and restarts the 2SML timer.
