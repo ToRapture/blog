@@ -10,6 +10,7 @@ tags:
 Some details of this implementation borrow from [sonyflake](https://github.com/sony/sonyflake).
 Here using 8 bits to represent time in units of 500ms, 4 bits to represent sequence, 4 bits to represent machine.
 As a result:
+
 - The lifetime is $2^8 \times 500ms = 128s$
 - It can work in $2^4 = 16$ distributed machines
 - It can generate $2^4 = 16$ IDs per $500ms$ at most in a single thread

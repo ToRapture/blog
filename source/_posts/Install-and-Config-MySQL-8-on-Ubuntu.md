@@ -29,6 +29,7 @@ mysql -uroot -e " \
     FLUSH PRIVILEGES;"
 ```
 In `/etc/mysql/mysql.conf.d/mysqld.cnf`:
+
 * replace `bind-address = 127.0.0.1` with `bind-address = 0.0.0.0`
 
 Then restart mysql by `sudo service mysql restart`.

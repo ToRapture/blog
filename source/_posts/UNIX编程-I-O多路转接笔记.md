@@ -225,6 +225,7 @@ errno: 22, str: Invalid argument
 Process finished with exit code 0
 ```
 在本机的`macOs`上`$ uname -a`的结果为`Darwin localhost 19.0.0 Darwin Kernel Version 19.0.0: Thu Oct 17 16:17:15 PDT 2019; root:xnu-6153.41.3~29/RELEASE_X86_64 x86_64`
+
 > The behavior of these macros is undefined if a descriptor value is less than zero or greater than or equal to FD\_SETSIZE, which is normally at least equal to the maximum number of descriptors supported by the system.[^man_select]
 
 

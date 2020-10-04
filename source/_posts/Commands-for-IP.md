@@ -9,7 +9,9 @@ tags:
 
 ## ifconfig
 https://linux.die.net/man/8/ifconfig
+
 > Ifconfig is used to configure the kernel-resident network interfaces. It is used at boot time to set up interfaces as necessary. After that, it is usually only needed when debugging or when system tuning is needed.
+
 If no arguments are given, ifconfig displays the status of the currently active interfaces. If a single interface argument is given, it displays the status of the given interface only; if a single -a argument is given, it displays the status of all interfaces, even those that are down. Otherwise, it configures an interface.
 
 ```
@@ -38,11 +40,15 @@ $ ifconfig <interface> down
 
 ## route
 https://linux.die.net/man/8/route
+
 > Route manipulates the kernel's IP routing tables. Its primary use is to set up static routes to specific hosts or networks via an interface after it has been configured with the ifconfig(8) program.
+
 When the add or del options are used, route modifies the routing tables. Without these options, route displays the current contents of the routing tables.
 
 - - -
+
 https://superuser.com/a/580674
+
 > The Gateway column identifies the defined gateway for the specified network. An asterisk (*) appears in this column if no forwarding gateway is needed for the network.
 
 ```
@@ -139,6 +145,7 @@ default         172.16.63.253   0.0.0.0         UG    0      0        0 eth0
 
 ## iptables
 https://linux.die.net/man/8/iptables
+
 > iptables - administration tool for IPv4 packet filtering and NAT
 
 ### default
@@ -210,6 +217,7 @@ num   pkts bytes target     prot opt in     out     source               destina
 
 ## ip
 https://linux.die.net/man/8/ip
+
 > ip - show / manipulate routing, devices, policy routing and tunnels
 
 ### address
@@ -243,6 +251,7 @@ default via 172.16.63.253 dev eth0
 
 ## netstat
 https://linux.die.net/man/8/netstat
+
 > netstat - Print network connections, routing tables, interface statistics, masquerade connections, and multicast memberships
 
 ### List all tcp listening ports

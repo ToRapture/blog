@@ -16,14 +16,19 @@ tags:
 ![](/images/posts/TCP-learn/1.png)
 
 ## Sequence Diagram
+
 ### Normal
 ![](/images/posts/TCP-learn/2.png)
+
 ### Simultaneous Open
 ![](/images/posts/TCP-learn/3.png)
+
 ### Simultaneous Close
 ![](/images/posts/TCP-learn/4.png)
+
 ### Half Close
 ![](/images/posts/TCP-learn/5.png)
+
 ### Normal with State
 ![](/images/posts/TCP-learn/6.png)
 

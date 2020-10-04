@@ -45,6 +45,7 @@ int main(int argc, char **argv) {
 
 # Network byte order
 https://stackoverflow.com/a/997586/13133551
+
 >"Network byte order" is Big Endian, and protocols such as TCP use this for integer fields (e.g. port numbers). Functions such as htons and ntohs can be used to do conversion.
 
 >The data itself doesn't have any endianness it's entirely application defined.

@@ -43,6 +43,7 @@ typedef struct redisObject {
 # 底层数据结构
 ## SDS - Simple Dynamic String
 SDS是二进制安全的。
+
 ### 定义
 ```cpp
 typedef char *sds;
@@ -53,6 +54,7 @@ struct sdshdr {
     char buf[];
 };
 ```
+
 ### API
 ```cpp
 /* Append the specified binary-safe string pointed by 't' of 'len' bytes to the
@@ -141,9 +143,11 @@ void listRewind(list *list, listIter *li);
 void listRewindTail(list *list, listIter *li);
 void listRotate(list *list);
 ```
+
 ## Dict
 Dict的核心就是Separate Chaining Hash Table。
 随着操作的不断进行，哈希表保存的键值对会逐渐地增多或减少，为了让哈希表的负载因子（USED/BUCKETS）维持在一个合理的范围之内，当哈希表保存的键值对数量太多或太少时，程序需要对哈希表的大小进行相应的扩展或收缩。
+
 ### 定义
 ```cpp
 typedef struct dictEntry {
@@ -292,11 +296,13 @@ unsigned long zslGetRank(zskiplist *zsl, double score, robj *o);
 ![](/images/posts/Redis学习-数据结构/0.png)
 
 插入时的核心逻辑：
+
 1. 找到插入的位置
 2. 随机得到新插入节点的level
 3. 处理为了插入当前节点穿过的指针和未穿过的指针的指向和跨度
 
 删除时的核心逻辑：
+
 1. 找到删除的位置
 2. 处理要删除的节点穿过的指针和未穿过的指针的指向和跨度
 3. 如果可以，减小跳跃表的level

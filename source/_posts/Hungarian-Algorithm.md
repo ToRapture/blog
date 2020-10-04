@@ -12,6 +12,7 @@ https://en.wikipedia.org/wiki/Matching_(graph_theory)
 
 ## Hungarian Algorithm
 Given a matching M,
+
 * an alternating path is a path that begins with an unmatched vertex and whose edges belong alternately to the matching and not to the matching.
 * an augmenting path is an alternating path that starts from and ends on free (unmatched) vertices.
 

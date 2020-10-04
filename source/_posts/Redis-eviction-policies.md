@@ -11,6 +11,7 @@ tags:
 
 ## Eviction policies
 There are total 6 evicition policies so far:
+
 - noeviction
 - allkeys-lru
 - allkeys-random

@@ -34,14 +34,15 @@ struct Hash {
 
 ## 原理
 
-$p_i = k^i$
-$h_i = \sum\limits_{j \in [i,\ len(a))} a_j \cdot k^{j - i}$
-$get(l, r) = h_l - h_{r+1} \cdot k^{r - l + 1}$
-$= \sum\limits_{j \in [l, len(a))} a_j \cdot k^{j - l} - \sum\limits_{j \in [r+1, len(a))} a_j \cdot k^{j-r-1} \cdot k^{r-l+1}$
-$= \sum\limits_{j \in [l, len(a))} a_j \cdot k^{j - l} - \sum\limits_{j \in [r+1, len(a))} a_j \cdot k^{j-l}$
-$= \sum\limits_{j \in [l, r+1)} a_j \cdot k^{j - l} + \sum\limits_{j \in [r+1, len(a))} a_j \cdot k^{j - l} - \sum\limits_{j \in [r+1, len(a))} a_j \cdot k^{j-l}$
-$= \sum\limits_{j \in [l, r+1)} a_j \cdot k^{j - l}$
-$= \sum\limits_{j \in [l, r]} a_j \cdot k^{j - l}$
+
+$p_i = k^i$  
+$h_i = \sum\limits_{j \in [i,\ len(a))} a_j \cdot k^{j - i}$  
+$get(l, r) = h_l - h_{r+1} \cdot k^{r - l + 1}$  
+$= \sum\limits_{j \in [l, len(a))} a_j \cdot k^{j - l} - \sum\limits_{j \in [r+1, len(a))} a_j \cdot k^{j-r-1} \cdot k^{r-l+1}$  
+$= \sum\limits_{j \in [l, len(a))} a_j \cdot k^{j - l} - \sum\limits_{j \in [r+1, len(a))} a_j \cdot k^{j-l}$  
+$= \sum\limits_{j \in [l, r+1)} a_j \cdot k^{j - l} + \sum\limits_{j \in [r+1, len(a))} a_j \cdot k^{j - l} - \sum\limits_{j \in [r+1, len(a))} a_j \cdot k^{j-l}$  
+$= \sum\limits_{j \in [l, r+1)} a_j \cdot k^{j - l}$  
+$= \sum\limits_{j \in [l, r]} a_j \cdot k^{j - l}$  
 在实现的时候用到了unsigned long long的自然溢出，相当于$\mod 2^{64}$。
 
 ## 例题

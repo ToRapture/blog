@@ -7,7 +7,7 @@ tags:
 ---
 
 ## Blogs
-[Go Slices: usage and internals](https://blog.golang.org/slices-intro)
+[Go Slices: usage and internals](https://blog.golang.org/slices-intro)  
 [Arrays, slices (and strings): The mechanics of 'append'](https://blog.golang.org/slices)
 
 ## Details
@@ -22,6 +22,7 @@ https://stackoverflow.com/a/33405824/13133551
 
 ### copy
 Look up in `$GOROOT/src/runtime/slice.go:slicecopy`.
+
 > The copy function supports copying between slices of different lengths (it will copy only up to the smaller number of elements). In addition, copy can handle source and destination slices that share the same underlying array, handling overlapping slices correctly.
 
 ## Codes

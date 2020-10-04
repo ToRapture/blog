@@ -7,6 +7,7 @@ tags:
 ---
 
 ## 基本TCP客户端与服务器
+
 ### Server
 ```cpp
 #include <cstdio>
@@ -268,6 +269,7 @@ int main(int argc, char **argv) {
 }
 ```
 ### Read
+
 #### 建连后客户端调用三次send，服务端在recv之前sleep 0秒
 `server`:
 ```
@@ -296,6 +298,7 @@ fd: 3, send 5 bytes
 fd: 3, send 5 bytes
 fd: 3, send 3 bytes
 ```
+
 #### 建连后客户端调用三次send，服务端在recv之前sleep 5秒
 `server`:
 ```
@@ -328,6 +331,7 @@ fd: 3, send 3 bytes
 ```
 
 ### Listen Backlog
+
 #### backlog传2
 `server`:
 ```
@@ -502,6 +506,7 @@ fd: 3, send 5 bytes
 fd: 3, send 5 bytes
 fd: 3, send 3 bytes
 ```
+
 #### Bind other-ip
 ```
 $ ./server --ip other-ip
