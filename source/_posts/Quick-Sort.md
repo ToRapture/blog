@@ -100,6 +100,7 @@ func sortArray(nums []int) []int {
 $s$ is the first index in the subarray of $vec$, $e$ is the last index in the subarray of $vec$.
 $vec[s:e]$ denotes the whole subarray, inclusive.
 At the start of the **for** loop:
+
 - $i$ denotes the index of the element to be compared with the pivot
 - $left$ denotes the number of remaining elements to be compared
 - $l$ denotes the minimum position to put the element which is smaller than the pivot
