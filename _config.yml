@@ -106,3 +106,7 @@ theme: next
 deploy:
   type: 'git'
   repo: git@github.com:ToRapture/ToRapture.github.io.git
+
+# Sitemap
+sitemap:
+  path: sitemap.xml
