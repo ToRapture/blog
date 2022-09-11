@@ -21,6 +21,6 @@ Once all the requirements are installed, run the following commands:
 
 `$ hexo server`
 
-### Deploy on Github Pages
+### Deploy on GitHub Pages
 
 `$ hexo clean && hexo deploy`
