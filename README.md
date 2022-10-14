@@ -1,6 +1,6 @@
 ## Usage
 
-### Clone and Init
+### Clone and Initialization
 Blog requires the following beforehand:
 
 * Node.js

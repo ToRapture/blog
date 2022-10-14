@@ -5,11 +5,11 @@
 # Site
 title: ToRapture's Blog
 subtitle: 'A Programmer'
-description: 'Some notes'
+description: 'Technology and Interest'
 keywords: ToRapture, Linux
 author: ToRapture
 language: en
-timezone: 'Asia/Shanghai'
+timezone: 'Asia/Tokyo'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
